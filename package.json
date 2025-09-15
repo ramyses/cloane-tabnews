@@ -4,8 +4,10 @@
   "description": "praticando programação",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build"
+     "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "migrate": "node-pg-migrate"
   },
   "author": "",
   "license": "MIT",
